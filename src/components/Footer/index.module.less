@@ -1,0 +1,57 @@
+@import '../../style/theme/theme.less';
+
+.footer {
+  position: relative;
+  max-width: 1160px;
+  margin: 0 auto;
+  padding: 0 @space-inset-default;
+
+  .container {
+    margin-top: @space-inset-default;
+    padding: @space-inset-default 0;
+    border-top: 3px solid currentColor;
+
+    p {
+      margin: @space-stack-xs;
+
+      a {
+        color: @orange-600;
+        font-weight: bold;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+
+    .copyright {
+      font-size: @font-size-xxs;
+    }
+
+    .footerItem {
+      font-size: @font-size-xs;
+    }
+
+    .button {
+      div {
+        position: absolute;
+        right: 20px;
+        bottom: 25px;
+        width: 30px;
+        height: 30px;
+        border: 2px solid;
+        border-radius: 50%;
+        cursor: pointer;
+
+        svg {
+          width: 30px;
+          height: 30px;
+        }
+
+        @media (max-width: 992px) {
+          display: none;
+        }
+      }
+    }
+  }
+}

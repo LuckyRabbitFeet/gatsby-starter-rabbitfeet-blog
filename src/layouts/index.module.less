@@ -1,0 +1,28 @@
+@import '../style/theme/theme.less';
+
+.row {
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+
+  .container {
+    width: 75%;
+
+    main {
+      padding: @space-inset-default;
+    }
+  }
+
+  .side {
+    width: 25%;
+  }
+
+  @media (max-width: 992px) {
+    flex-direction: column;
+
+    .container,
+    .side {
+      width: 100%;
+    }
+  }
+}

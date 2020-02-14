@@ -1,0 +1,37 @@
+@import '../../style/theme/theme.less';
+
+.container {
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+    li {
+      margin: @space-inline-xs;
+
+      p {
+        margin: 0;
+        padding: @space-inset-xs @space-inset-s;
+        background: @white;
+        border: 1px solid @grey-400;
+        border-radius: @radius-small;
+        transition: all @duration-short;
+      }
+
+      a:hover,
+      .active {
+        p {
+          color: @theme-background-color;
+          background: @blue-grey;
+          border-color: @blue-grey;
+        }
+      }
+
+      .active {
+        pointer-events: none;
+      }
+    }
+  }
+}

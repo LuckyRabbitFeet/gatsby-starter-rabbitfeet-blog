@@ -1,0 +1,29 @@
+@import './theme/theme.less';
+
+.wrapper {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: @space-inset-default;
+  padding-right: @space-inset-default;
+
+  @media (max-width: 1200px) {
+    max-width: 90%;
+  }
+
+  @media (max-width: 992px) {
+  }
+
+  @media (max-width: 768px) {
+    max-width: 100%;
+  }
+
+  @media (max-width: 576px) {
+  }
+}
+
+.reactIcons {
+  position: relative;
+  top: 0.125em;
+  margin: @space-inline-xs;
+}

@@ -1,0 +1,53 @@
+@import '../../../style/theme/theme.less';
+
+.header {
+  margin: @space-stack-default;
+  border-bottom: 1px solid @grey-400;
+
+  .cateDate {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: @space-stack-s;
+
+    .catTags {
+      .cat,
+      .tag {
+        margin: @space-inline-s;
+        padding: 0 @space-inset-s;
+        color: @theme-background-color;
+        line-height: @font-line-height-xxl;
+        border-radius: 5px;
+      }
+
+      .cat {
+        background: @black;
+      }
+
+      .tag {
+        background: @blue-grey;
+      }
+    }
+
+    .date {
+      margin-left: auto;
+
+      span {
+        display: flex;
+        align-items: center;
+        padding: @space-inset-xs 0;
+        color: @grey-600;
+        font-size: @font-size-xs;
+
+        svg {
+          margin: @space-inline-xs;
+        }
+      }
+    }
+  }
+
+  .title {
+    font-size: @font-size-xxl;
+    margin: @space-stack-s;
+  }
+}

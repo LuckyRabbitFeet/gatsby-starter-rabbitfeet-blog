@@ -1,0 +1,75 @@
+@import '../../../style/theme/theme.less';
+
+.footer {
+  margin-top: @space-default;
+
+  .cc {
+    margin: @space-stack-s;
+    padding: @space-inset-s 0;
+    font-size: @font-size-xs;
+    text-align: center;
+    border-top: 1px dashed @grey-400;
+    border-bottom: 1px dashed @grey-400;
+
+    svg {
+      position: relative;
+      top: 0.15em;
+      margin: @space-inline-xs;
+    }
+  }
+
+  .context {
+    display: flex;
+
+    .prev,
+    .next {
+      position: relative;
+      max-width: 50%;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+
+      svg {
+        position: absolute;
+        top: 0.2em;
+      }
+    }
+
+    .prev {
+      margin-right: auto;
+      padding-left: 1.5em;
+
+      svg {
+        left: 0;
+      }
+    }
+
+    .next {
+      margin-left: auto;
+      padding-right: 1.5em;
+
+      svg {
+        right: 0;
+      }
+    }
+
+    a:hover {
+      color: @orange-600;
+    }
+
+    @media (max-width: 768px) {
+      flex-direction: column;
+
+      .prev,
+      .next {
+        max-width: 70%;
+        text-align: center;
+        margin: auto;
+      }
+
+      .prev {
+        margin-bottom: @space-s;
+      }
+    }
+  }
+}
