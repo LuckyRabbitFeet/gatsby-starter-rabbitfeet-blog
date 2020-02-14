@@ -180,8 +180,8 @@ exports.createSchemaCustomization = ({ actions }) => {
       frontmatter: Frontmatter
     }
     type Frontmatter {
-      subtitle: String!
-      comment: Boolean!
+      subtitle: String
+      comment: Boolean
     }
   `
   createTypes(typeDefs)
