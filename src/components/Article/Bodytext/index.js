@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 
 const Bodytext = ({ html }) => (
   <React.Fragment>
-    <div className="markdown-body" dangerouslySetInnerHTML={{ __html: html }} />
+    <div className="md-body" dangerouslySetInnerHTML={{ __html: html }} />
   </React.Fragment>
 )
 
