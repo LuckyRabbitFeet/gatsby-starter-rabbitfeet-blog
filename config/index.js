@@ -80,7 +80,7 @@ module.exports = {
       name: '转载',
       color: '#6d4c41',
     },
-    mis: {
+    misc: {
       name: '杂记',
       color: '#448aff',
     },
