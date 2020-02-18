@@ -5,7 +5,10 @@ const config = require('./config')
 exports.onCreateNode = ({ node, getNode, actions }) => {
   const { createNodeField } = actions
   if (node.internal.type === `MarkdownRemark`) {
-    let slug = createFilePath({ node, getNode, trailingSlash: false })
+    let { slug = '' } = node.frontmatter
+    if (slug === null || slug.trim() === '') {
+      slug = createFilePath({ node, getNode, trailingSlash: false })
+    }
     const fileNode = getNode(node.parent)
     const source = fileNode.sourceInstanceName
     if (source === 'posts') {
