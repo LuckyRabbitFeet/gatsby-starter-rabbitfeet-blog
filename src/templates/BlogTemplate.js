@@ -31,7 +31,7 @@ BlogTemplate.propTypes = {
 export const query = graphql`
   fragment PostList on MarkdownRemark {
     id
-    excerpt
+    excerpt(pruneLength: 200, truncate: true)
     fields {
       slug
     }
