@@ -2,6 +2,7 @@
 
 一个基于 GatsbyJS 的博客框架。
 
+[![CodeFactor](https://www.codefactor.io/repository/github/luckyrabbitfeet/gatsby-starter-rabbitfeet-blog/badge/master)](https://www.codefactor.io/repository/github/luckyrabbitfeet/gatsby-starter-rabbitfeet-blog/overview/master)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 [![GitHub license](https://img.shields.io/github/license/LuckyRabbitFeet/gatsby-starter-rabbitfeet-blog.svg)](https://github.com/LuckyRabbitFeet/gatsby-starter-rabbitfeet-blog/blob/gh-pages/LICENSE)
 
