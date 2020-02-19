@@ -2,7 +2,7 @@
 title: Shadowsocks Python版一键安装脚本
 date: 2019-03-01 21:24:00
 cat: repro
-tegs:
+tags:
   - shadowsocks
 ---
 
