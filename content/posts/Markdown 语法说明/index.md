@@ -6,6 +6,7 @@ cover: ''
 comment: false
 tags:
   - md
+  - 示例文档
 ---
 
 # Markdown 语法说明
