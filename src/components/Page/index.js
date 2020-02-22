@@ -15,7 +15,7 @@ const Page = ({
     <React.Fragment>
       <PageTitle title={title} subtitle={subtitle} />
       <Bodytext html={html} />
-      <PageFooter comment={comment} />
+      <PageFooter title={title} comment={comment} />
     </React.Fragment>
   )
 }

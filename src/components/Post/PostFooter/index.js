@@ -20,7 +20,7 @@ const PostFooter = ({
     fields: { slug: prevSlug } = {},
     frontmatter: { title: prevTitle } = {},
   } = {},
-  comment,
+  frontmatter: { title, comment },
 }) => (
   <footer className={styleList.footer}>
     <div className={styleList.cc}>
@@ -51,14 +51,14 @@ const PostFooter = ({
         </div>
       )}
     </div>
-    {comment === false ? null : <Comment />}
+    {comment === false ? null : <Comment title={title} />}
   </footer>
 )
 
 PostFooter.propTypes = {
   next: PropTypes.object,
   prev: PropTypes.object,
-  comment: PropTypes.bool,
+  frontmatter: PropTypes.object.isRequired,
 }
 
 export default PostFooter

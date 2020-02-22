@@ -10,7 +10,7 @@ const Post = ({ post: { html, frontmatter }, next, prev }) => {
     <React.Fragment>
       <PostTitle frontmatter={frontmatter} />
       <BodyText html={html} />
-      <PostFooter next={next} prev={prev} comment={frontmatter.comment} />
+      <PostFooter next={next} prev={prev} frontmatter={frontmatter} />
     </React.Fragment>
   )
 }
