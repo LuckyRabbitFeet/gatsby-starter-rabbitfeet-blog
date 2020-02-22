@@ -11,6 +11,8 @@ tags:
 Read and translate a BBC news every day.
 每天阅读并翻译一篇 BBC 新闻。
 
+[News](https://www.bbc.com/news/technology-51589920)
+
 ## Nintendo: Animal Crossing fans upset by cloud restrictions <br> 任天堂：动物之森粉丝因为云限制而感到不安
 
 > upset 打乱;沮丧;烦恼
