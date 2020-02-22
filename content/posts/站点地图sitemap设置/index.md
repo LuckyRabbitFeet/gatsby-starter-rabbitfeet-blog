@@ -36,7 +36,7 @@ sitemap 生成方式有很多种，可以自己直接编写 xml 文件，通过�
 
 当然，本博客是采用的[sitemap 插件][4]生成的站点地图。
 
-参考文章<br>
+参考文章
 [如何设置 Google Sitemap 格式中的优先级和更新频率][5]
 
 [1]: https://baike.baidu.com/item/sitemap/6241567?fr=aladdin

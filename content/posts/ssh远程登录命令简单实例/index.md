@@ -9,7 +9,7 @@ tags:
 
 ssh 命令用于远程登录上 Linux 主机。
 
-常用格式：`ssh [-l login_name] [-p port] [user@]hostname`<br>
+常用格式：`ssh [-l login_name] [-p port] [user@]hostname`
 更详细的可以用 ssh -h 查看。
 
 举例

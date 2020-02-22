@@ -23,7 +23,7 @@ tags:
 
 ![img][4]
 
-参考文章<br>
+参考文章
 [Typecho 的 robots 文件][5]
 
 [1]: https://baike.baidu.com/item/robot.txt/3936191?fr=aladdin

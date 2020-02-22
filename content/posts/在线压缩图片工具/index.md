@@ -11,12 +11,12 @@ tags:
 # 正文
 
 1. [Tinypng][1]
-2. [Compressor.io][2]<br>
+2. [Compressor.io][2]
    ~~需要利用科学上网才能正常进入~~
 3. [Kraken.io][3]
-4. [Giftofspeed][4]<br>
+4. [Giftofspeed][4]
    这个网站~~也需要利用科学上网才能正常进入~~有很多有用的工具，几乎能一站的检测你的网站，非常好用。
-5. [OptimiZilla][5]<br>
+5. [OptimiZilla][5]
    ~~科学上网你懂得~~这个网站是这几个网站中唯一有中文的一个。
 6. [Imagerecycle][6]
    这个网站除了图片，也可以压缩 PDF 文件。

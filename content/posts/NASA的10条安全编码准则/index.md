@@ -107,7 +107,7 @@ l 对已分配内存进行越界使用
 
 以上这些准则是基于 NASA 喷气推进实验室首选的 C 语言，但同样适用于其它编程语言。它们就如同汽车安全带，也许一开始会让你觉得有些不舒适，但一旦用上它们，过不了多久，就会变成每个人的第二本能，到时候如果不这么做反倒会觉得不舒服。
 
-[ 参考资料 ]<br>
+参考资料
 [《applying nasa coding standards to java》](http://pixelscommander.com/en/java/nasa-coding-standarts-for-java-performance/)
 [《NASA’s 10 rules for developing safety-critical code》](https://sdtimes.com/nasas-10-rules-developing-safety-critical-code/)
 [《NASA’s 10 Coding Rules for Writing Safety Critical Program》](https://www.rankred.com/nasa-coding-rules/)

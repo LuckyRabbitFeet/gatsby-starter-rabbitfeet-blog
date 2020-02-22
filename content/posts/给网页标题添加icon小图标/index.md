@@ -7,9 +7,9 @@ tags:
   - 教程
 ---
 
-自使用 workpress 框架搭建博客以来，已经过了差不多 3 个月了。<br>
-最近终于无法忍受 wp 那个庞大的系统所带来的卡卡的使用体验，于是索性换成了相对比较轻量级的 typecho。<br>
-但是在搭建过程中，发现网页标题在浏览器中没有图标，后台也没有设置…<br>
+自使用 workpress 框架搭建博客以来，已经过了差不多 3 个月了。
+最近终于无法忍受 wp 那个庞大的系统所带来的卡卡的使用体验，于是索性换成了相对比较轻量级的 typecho。
+但是在搭建过程中，发现网页标题在浏览器中没有图标，后台也没有设置…
 
 ![img1][1]
 
@@ -47,8 +47,8 @@ tags:
 
 ![img2][2]
 
-参考文章：<br>
-[使用 link rel="shortcut icon"为网页标题加图标](https://www.cnblogs.com/GoTing/p/7494307.html)<br>
+参考文章：
+[使用 link rel="shortcut icon"为网页标题加图标](https://www.cnblogs.com/GoTing/p/7494307.html)
 [apple-touch-icon,shortcut icon 和 icon 的区别](https://www.aliyun.com/jiaocheng/687149.html)
 
 [1]: https://raw.githubusercontent.com/LuckyRabbitFeet/rabbitfeet.net/master/res/%E7%BB%99%E7%BD%91%E9%A1%B5%E6%A0%87%E9%A2%98%E6%B7%BB%E5%8A%A0icon%E5%B0%8F%E5%9B%BE%E6%A0%87/noico.png
