@@ -5,13 +5,14 @@ import Comment from '../../Comment'
 
 import styleList from './index.module.less'
 
-const PageFooter = ({ comment }) => (
+const PageFooter = ({ title, comment }) => (
   <footer className={styleList.footer}>
-    {comment === false ? null : <Comment />}
+    {comment === false ? null : <Comment title={title} />}
   </footer>
 )
 
 PageFooter.propTypes = {
+  title: PropTypes.string,
   comment: PropTypes.bool,
 }
 
