@@ -5,7 +5,7 @@ cat: other
 tags:
   - learn
   - english
-  - translation
+  - translate
 ---
 
 Read and translate a BBC news every day.
