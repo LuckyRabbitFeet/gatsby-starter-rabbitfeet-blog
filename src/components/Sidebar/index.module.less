@@ -14,13 +14,16 @@
     }
 
     ul {
+      max-height: 400px;
       margin: @space-s 0;
       padding: 0;
       list-style: none;
+      overflow: auto;
 
       li {
         a {
           display: block;
+          position: relative;
           margin: @space-inset-xs 0;
           padding: @space-inset-xs 0 @space-inset-xs 1.5em;
           transition: all @duration-short;

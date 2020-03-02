@@ -35,9 +35,6 @@ class Sidebar extends React.Component {
   }
 
   render() {
-    // const category = Object.keys(config.category).map(item => {
-    //   return config.category[item]
-    // })
     const { tags } = this.props
     const { showMenu } = this.state
 
