@@ -1,0 +1,16 @@
+{
+  "name": "gatsby-remark-highlight",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "remark-highlight.js": "^5.2.0",
+    "unist-util-visit": "^2.0.2"
+  }
+}
