@@ -1,6 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import 'gitalk/dist/gitalk.css'
+// import 'gitalk/dist/gitalk.css'
+import './gitalk.css'
 import Gitalk from 'gitalk'
 import md5 from 'md5'
 
