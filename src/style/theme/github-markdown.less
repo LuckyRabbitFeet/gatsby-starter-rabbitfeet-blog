@@ -25,6 +25,16 @@
     margin-bottom: 0 !important;
   }
 
+  a {
+    color: #0366d6;
+    text-decoration: none;
+    background-color: transparent;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
   // Anchors like <a name="examples">. These sometimes end up wrapped around
   // text when users mistakenly forget to close the tag or use self-closing tag
   // syntax. We don't want them to appear like links.
@@ -56,6 +66,7 @@
   }
 
   blockquote {
+    margin: 0;
     padding: 0 1em;
     color: #6a737d;
     border-left: 0.25em solid #dfe2e5;
@@ -209,6 +220,8 @@
   table {
     display: block;
     width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
     overflow: auto;
 
     th {
