@@ -1,0 +1,183 @@
+.gatsby-highlight {
+  position: relative;
+  margin: 0.5em 0;
+}
+
+pre[class*='language-'] {
+  margin: 0;
+}
+
+.gatsby-highlight::before {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 2em;
+  background: #182a33;
+}
+
+.gatsby-highlight::after {
+  content: attr(data-language);
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 0 1em;
+  height: 2em;
+  font-size: 1em;
+  line-height: 2em;
+  color: #fff;
+  background: #4c607f;
+}
+
+.gatsby-highlight[data-language='text']::after {
+  content: 'Text';
+}
+
+.gatsby-highlight[data-language='bash']::after {
+  content: 'Bash';
+  background: #d9b400;
+}
+
+.gatsby-highlight[data-language='c']::after {
+  content: 'C';
+  background: #005f91;
+}
+
+.gatsby-highlight[data-language='cpp']::after {
+  content: 'C++';
+  background: #005f91;
+}
+
+.gatsby-highlight[data-language='cs']::after,
+.gatsby-highlight[data-language='csharp']::after {
+  content: 'C#';
+  background: #368832;
+}
+
+.gatsby-highlight[data-language='css']::after {
+  content: 'CSS';
+  background: #1572b6;
+}
+
+.gatsby-highlight[data-language='diff']::after {
+  content: 'Diff';
+  background: green;
+}
+
+.gatsby-highlight[data-language='git']::after {
+  content: 'Git';
+  background: #fca326;
+}
+
+.gatsby-highlight[data-language='go']::after {
+  content: 'Go';
+  background: #00acd7;
+}
+
+.gatsby-highlight[data-language='graphql']::after {
+  content: 'GraphQL';
+  background: #e10097;
+}
+
+.gatsby-highlight[data-language='html']::after {
+  content: 'HTML';
+  background: #f1662a;
+}
+
+.gatsby-highlight[data-language='java']::after {
+  content: 'Java';
+  background: #5382a1;
+}
+
+.gatsby-highlight[data-language='json']::after {
+  content: 'JSON';
+  background: #f5de19;
+}
+
+.gatsby-highlight[data-language='js']::after,
+.gatsby-highlight[data-language='javascript']::after {
+  content: 'JavaScript';
+  background: #f5de19;
+}
+
+.gatsby-highlight[data-language='jsx']::after {
+  content: 'React JSX';
+  background: #f5de19;
+}
+
+.gatsby-highlight[data-language='kotlin']::after {
+  content: 'Kotlin';
+  background-image: linear-gradient(to bottom right, #cb55c0, #f28e0e);
+}
+
+.gatsby-highlight[data-language='less']::after {
+  content: 'Less';
+  background: #193255;
+}
+
+.gatsby-highlight[data-language='md']::after,
+.gatsby-highlight[data-language='markdown']::after {
+  content: 'Markdown';
+  background: #755838;
+}
+
+.gatsby-highlight[data-language='php']::after {
+  content: 'PHP';
+  background: #6280b6;
+}
+
+.gatsby-highlight[data-language='powershell']::after {
+  content: 'PowerShell';
+  background: #5290fd;
+}
+
+.gatsby-highlight[data-language='py']::after,
+.gatsby-highlight[data-language='python']::after {
+  content: 'Python';
+  color: #366e9d;
+  background: #ffdc4e;
+}
+
+.gatsby-highlight[data-language='rb']::after,
+.gatsby-highlight[data-language='ruby']::after {
+  content: 'Ruby';
+  background: #e71622;
+}
+
+.gatsby-highlight[data-language='rust']::after {
+  content: 'Rust';
+  background: #a04f12;
+}
+
+.gatsby-highlight[data-language='sass']::after,
+.gatsby-highlight[data-language='sass']::after {
+  content: 'Sass';
+  background: #cd6799;
+}
+
+.gatsby-highlight[data-language='shell']::after {
+  content: 'Shell';
+  background: #d9b400;
+}
+
+.gatsby-highlight[data-language='sql']::after {
+  content: 'SQL';
+  background: #ffda44;
+}
+
+.gatsby-highlight[data-language='swift']::after {
+  content: 'Swift';
+  background: #fd2822;
+}
+
+.gatsby-highlight[data-language='ts']::after,
+.gatsby-highlight[data-language='typescript']::after {
+  content: 'TypeScript';
+  background: #007acc;
+}
+
+.gatsby-highlight[data-language='yml']::after,
+.gatsby-highlight[data-language='yaml']::after {
+  content: 'YAML';
+  background: #fbc02d;
+}

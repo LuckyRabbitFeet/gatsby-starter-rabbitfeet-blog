@@ -41,7 +41,7 @@ module.exports = {
       resolve: `gatsby-transformer-remark`,
       options: {
         plugins: [
-          'gatsby-remark-breaks',
+          'gatsby-remark-breaks', // from plugins folder
           'gatsby-remark-autolink-headers',
           {
             resolve: `gatsby-remark-images`,
@@ -64,30 +64,16 @@ module.exports = {
           },
           `gatsby-remark-smartypants`, // 将标点符号转换为智能标点符号，有助于排版（大概
           `gatsby-remark-external-links`, // 选用此插件后 gatsby-plugin-catch-links 将会失效
+          // 'gatsby-remark-highlight', // from plugins folder
           {
             resolve: `gatsby-remark-prismjs`,
             options: {
-              // 这用于通过创建分隔符来设置内联代码的语言（即单个反引号）。
-              // 该分隔符是一个字符串，不会进行空格剥离。
-              // 对于说英语的人，建议的值是非ASCII字符“›”。
-              // inlineCodeMarker: null,
               // 这将在代码旁边全局切换行号的显示。
               // 要使用它，请在导入棱镜配色方案后立即在gatsby-browser.js中添加以下行：
               // require（“ prismjs / plugins / line-numbers / prism-line-numbers.css”）默认为false。
               // 如果只希望在某些代码块上显示行号，
               // 请保留false并使用下面的{numberLines：true}语法
               showLineNumbers: true,
-              // 如果将其设置为true，则解析器将不会处理和
-              // 突出显示Markdown中使用的内联代码，即单反引号，例如`this`。
-              // noInlineHighlight: false,
-              // 自定义外壳程序输出中使用的提示，以下为默认值
-              prompt: {
-                user: 'root',
-                host: 'localhost',
-                global: false,
-              },
-              // 默认情况下，HTML实体<>＆'“被转义。通过提供HTML实体及其转义值IE的映射，添加其他HTML转义：{ '}': '&#123;' }
-              // escapeEntities: {},
             },
           },
         ],
