@@ -19,9 +19,13 @@ tags:
 
 打开 Babel 的官网，说实话每次都看得头昏眼花，什么东西可以不装？什么东西必装？哪些设置有用？哪些设置可以默认？总要研究好久……
 
-总之，Babel 的配置可以简单理解成 **预设 + 插件** 的模式。预设解决常用的语法转换，插件搞定预设不能解决的情况。
+总之，Babel 的配置可以简单理解成 **预设 + 插件** 的模式。预设解决常用的语法转换，插件搞定预设没有解决的问题。
 
 ## 依赖包
+
+在官网的文档页，可以看到许多的工具、插件和预设，工具是 Babel 的转换核心提供各种功能，，插件提供语法 ES+ 的语法支持，预设则包含了大部分插件，负责简化配置。
+
+以下列出了一部分比较常用的依赖。
 
 - `@babel/core`
 
@@ -31,21 +35,17 @@ tags:
 - `@babel/cli`
 
   开发依赖，非必装。
-  Babel 的命令行工具。
+  Babel 的命令行工具，如果配合打包工具来配置 Babel 的话，这个依赖似乎作用就不大了。
 
 - `@babel/preset-env`
 
   开发依赖。
 
-  > `@babel/preset-env` is a smart preset that allows you to use the latest JavaScript without needing to micromanage which syntax transforms (and optionally, browser polyfills) are needed by your target environment(s). This both makes your life easier and JavaScript bundles smaller!
-
-  简单讲就是语法插件预设，通过配置可以实现自动兼容代码，包括自动引入 polyfill 垫片处理新的 API（例如：Promise,Generator,Symbol 等）以及实例方法（例如 Array.prototype.includes 等）。
+  语法预设插件，通过其配置可以实现自动兼容代码，包括自动引入 polyfill 垫片处理新的 API（例如：Promise,Generator,Symbol 等）以及实例方法（例如 Array.prototype.includes 等）。
 
   虽说不装也行，不过这比手动配置一大堆语法插件要来的方便许多。
 
-  除了 env 这个预设之外，还有 stage-0、stage-1、stage-2、stage-3、flow、react、minify、typescript 这几个预设值。
-
-  从 Babel v7 开始 stage 预设已被弃用可以不再考虑，剩下 4 个预设则可以使用在特定场合。
+  除了 env 这个预设之外，还有 stage-0、stage-1、stage-2、stage-3、flow、react、minify、typescript 这几个预设值，不过从 Babel v7 开始 stage 预设已被弃用可以不再考虑，剩下 4 个预设则可以使用在特定场合。
 
 - `@babel/plugin-transform-runtime`
 
@@ -60,6 +60,8 @@ tags:
   这个插件提供了 runtime helpers 和 `regenerator-runtime`。
 
 ## Polyfill
+
+Babel 的默认转换并不会对 ES5+ 新增的内置函数进行转换，所以为了向下兼容需要配置 polyfill 来做处理。
 
 > 🚨 As of Babel 7.4.0, this package has been deprecated in favor of directly including core-js/stable (to polyfill ECMAScript features) and regenerator-runtime/runtime (needed to use transpiled generator functions):
 >
@@ -158,7 +160,7 @@ var a = new _promise.default()
 
 在普通开发时使用`preset-env`或`@babel/plugin-transform-runtime`配置 polyfill 都可以，但在开发类库项目时，最好还是采用`@babel/plugin-transform-runtime`来进行配置。
 
-最后看了几个 GitHub 项目，感觉大家对 Babel 的配置都很简单，不知为何很多人都没有引入 polyfill……也许正好是我参考学习的项目方向可以不使用 ployfill 吧。
+本文只是列举了一部分的插件和预设，虽然在现下很多的工具集合和开发框架都已经帮我们配置好了 Babel，省去了我们自己手动配置的麻烦，但我认为 Babel 本身的功能还是十分强大的，很值的大家深入学习了解一下。
 
 ---
 
