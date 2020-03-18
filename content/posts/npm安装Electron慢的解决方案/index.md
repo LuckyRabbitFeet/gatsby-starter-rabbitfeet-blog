@@ -8,7 +8,7 @@ tags:
 
 今天开始学习 Electron，结果一上来就遇到了大麻烦……
 
-![卡住了](Snipaste_2020-03-18_21-41-10.png)
+![卡住了](https://raw.githubusercontent.com/LuckyRabbitFeet/rabbitfeet.net/master/res/npm%E5%AE%89%E8%A3%85Electron%E6%85%A2%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/Snipaste_2020-03-18_21-41-10.png)
 
 这个卡着不动的画面大家应该挺眼熟吧，放了 10 分钟居然都没动过，太悲伤了。
 
@@ -25,14 +25,14 @@ tags:
 
   ```cmd
   set ELECTRON_MIRROR="https://npm.taobao.org/mirrors/electron/"
-  set ELECTRON_CUSTOM_DIR="8.1.1"
+  set ELECTRON_CUSTOM_DIR="8.1.1" # 你要安装的electron版本
   ```
 
   linux：
 
   ```bash
   export ELECTRON_MIRROR="https://npm.taobao.org/mirrors/electron/"
-  export ELECTRON_CUSTOM_DIR="8.1.1"
+  export ELECTRON_CUSTOM_DIR="8.1.1" # 你要安装的electron版本
   ```
 
 - 方案二：使用代理
@@ -78,11 +78,11 @@ export ELECTRON_MIRROR="https://npm.taobao.org/mirrors/electron/"
 
 嘛~可惜光设置上面这项还不能解决问题，如果直接下载的话，你将会收到一个 404 报错……
 
-![404](Snipaste_2020-03-18_22-15-05)
+![404](https://raw.githubusercontent.com/LuckyRabbitFeet/rabbitfeet.net/master/res/npm%E5%AE%89%E8%A3%85Electron%E6%85%A2%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/Snipaste_2020-03-18_22-15-05.png)
 
 这个问题出现是因为 electron 的下载逻辑会在`version`后面多加一个`v`，嘛~毕竟人家默认是从 GitHub 上下载文件，所以这个`v`是为了对应 GitHub 的下载路径。
 
-![下载逻辑](Snipaste_2020-03-18_22-20-21)
+![下载逻辑](https://raw.githubusercontent.com/LuckyRabbitFeet/rabbitfeet.net/master/res/npm%E5%AE%89%E8%A3%85Electron%E6%85%A2%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/Snipaste_2020-03-18_22-20-21.png)
 
 解决方法通过对比下载路径不难看出，只要再指定版本号就可以解决问题。
 
@@ -116,7 +116,7 @@ export ELECTRON_CUSTOM_DIR="8.1.1"
 
 ## 使用代理
 
-刚开始觉得这个方案很简单，只要在 bash 里设置下`http_proxy`和`https_proxy`就好了，但是在下载过程中却发现 npm 包虽然都通过代理下载的很快，但唯独 electron 的下载完全没有通过代理，其次[官方文档][3]对于代理也只有一句简短的描述，让人有点无从入手。
+刚开始觉得这个方案很简单，只要在 bash 里设置下`http_proxy`和`https_proxy`就好了，但是在下载过程中却发现 npm 包虽然都通过代理下载的很快，但唯独 electron 的下载完全没有走代理，再看看[官方文档][3]对于代理也只有一句简短的描述，着实让人有点无从入手。
 
 研究了半天之后，我终于发现`ELECTRON_GET_USE_PROXY`只是一个开关，~~起初我还以为这个值是用于配置代理地址的~~，只有当其为`ture`的时候才会启用代理，而代理本身则是通过[global-agent][global-agent]来配置的。
 
