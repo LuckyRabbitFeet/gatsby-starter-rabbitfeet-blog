@@ -128,5 +128,5 @@ wp=.\node_modules\.bin\webpack $* //如果webpack不是全局安装而是安装�
 [Windows 命令行工具 cmder 配置](https://segmentfault.com/a/1190000011361877)
 [cmder 使用简介](https://segmentfault.com/a/1190000008501694)
 
-[1]: https://raw.githubusercontent.com/LuckyRabbitFeet/rabbitfeet.net/master/res/Cmder%E9%85%8D%E7%BD%AE/cmder.png
-[2]: https://raw.githubusercontent.com/LuckyRabbitFeet/rabbitfeet.net/master/res/Cmder%E9%85%8D%E7%BD%AE/articlex.png
+[1]: https://cdn.jsdelivr.net/gh/LuckyRabbitFeet/rabbitfeet.net@master/res/Cmder%E9%85%8D%E7%BD%AE/cmder.png
+[2]: https://cdn.jsdelivr.net/gh/LuckyRabbitFeet/rabbitfeet.net@master/res/Cmder%E9%85%8D%E7%BD%AE/articlex.png

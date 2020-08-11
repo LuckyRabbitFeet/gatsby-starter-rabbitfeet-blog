@@ -51,5 +51,5 @@ tags:
 [使用 link rel="shortcut icon"为网页标题加图标](https://www.cnblogs.com/GoTing/p/7494307.html)
 [apple-touch-icon,shortcut icon 和 icon 的区别](https://www.aliyun.com/jiaocheng/687149.html)
 
-[1]: https://raw.githubusercontent.com/LuckyRabbitFeet/rabbitfeet.net/master/res/%E7%BB%99%E7%BD%91%E9%A1%B5%E6%A0%87%E9%A2%98%E6%B7%BB%E5%8A%A0icon%E5%B0%8F%E5%9B%BE%E6%A0%87/noico.png
-[2]: https://raw.githubusercontent.com/LuckyRabbitFeet/rabbitfeet.net/master/res/%E7%BB%99%E7%BD%91%E9%A1%B5%E6%A0%87%E9%A2%98%E6%B7%BB%E5%8A%A0icon%E5%B0%8F%E5%9B%BE%E6%A0%87/haveico.png
+[1]: https://cdn.jsdelivr.net/gh/LuckyRabbitFeet/rabbitfeet.net@master/res/%E7%BB%99%E7%BD%91%E9%A1%B5%E6%A0%87%E9%A2%98%E6%B7%BB%E5%8A%A0icon%E5%B0%8F%E5%9B%BE%E6%A0%87/noico.png
+[2]: https://cdn.jsdelivr.net/gh/LuckyRabbitFeet/rabbitfeet.net@master/res/%E7%BB%99%E7%BD%91%E9%A1%B5%E6%A0%87%E9%A2%98%E6%B7%BB%E5%8A%A0icon%E5%B0%8F%E5%9B%BE%E6%A0%87/haveico.png

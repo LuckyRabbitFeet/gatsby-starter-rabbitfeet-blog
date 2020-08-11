@@ -36,5 +36,5 @@ tags:
 [Typecho 插件 CommentToMail 配置流程详解][3]
 
 [1]: https://9sb.org/58
-[2]: https://raw.githubusercontent.com/LuckyRabbitFeet/rabbitfeet.net/master/res/Typecho%E6%8F%92%E4%BB%B6CommentToMail%E9%85%8D%E7%BD%AE%E4%BC%81%E4%B8%9A%E9%82%AE%E7%AE%B1/CommentToMail%E4%BC%81%E4%B8%9A%E9%82%AE%E7%AE%B1%E9%85%8D%E7%BD%AE.png
+[2]: https://cdn.jsdelivr.net/gh/LuckyRabbitFeet/rabbitfeet.net@master/res/Typecho%E6%8F%92%E4%BB%B6CommentToMail%E9%85%8D%E7%BD%AE%E4%BC%81%E4%B8%9A%E9%82%AE%E7%AE%B1/CommentToMail%E4%BC%81%E4%B8%9A%E9%82%AE%E7%AE%B1%E9%85%8D%E7%BD%AE.png
 [3]: https://www.zuozuovera.cn/archives/1196/

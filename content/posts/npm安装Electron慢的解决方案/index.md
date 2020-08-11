@@ -8,7 +8,7 @@ tags:
 
 今天开始学习 Electron，结果一上来就遇到了大麻烦……
 
-![卡住了](https://raw.githubusercontent.com/LuckyRabbitFeet/rabbitfeet.net/master/res/npm%E5%AE%89%E8%A3%85Electron%E6%85%A2%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/Snipaste_2020-03-18_21-41-10.png)
+![卡住了](https://cdn.jsdelivr.net/gh/LuckyRabbitFeet/rabbitfeet.net@master/res/npm%E5%AE%89%E8%A3%85Electron%E6%85%A2%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/Snipaste_2020-03-18_21-41-10.png)
 
 这个卡着不动的画面大家应该挺眼熟吧，放了 10 分钟居然都没动过，太悲伤了。
 
@@ -78,11 +78,11 @@ export ELECTRON_MIRROR="https://npm.taobao.org/mirrors/electron/"
 
 嘛~可惜光设置上面这项还不能解决问题，如果直接下载的话，你将会收到一个 404 报错……
 
-![404](https://raw.githubusercontent.com/LuckyRabbitFeet/rabbitfeet.net/master/res/npm%E5%AE%89%E8%A3%85Electron%E6%85%A2%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/Snipaste_2020-03-18_22-15-05.png)
+![404](https://cdn.jsdelivr.net/gh/LuckyRabbitFeet/rabbitfeet.net@master/res/npm%E5%AE%89%E8%A3%85Electron%E6%85%A2%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/Snipaste_2020-03-18_22-15-05.png)
 
 这个问题出现是因为 electron 的下载逻辑会在`version`后面多加一个`v`，嘛~毕竟人家默认是从 GitHub 上下载文件，所以这个`v`是为了对应 GitHub 的下载路径。
 
-![下载逻辑](https://raw.githubusercontent.com/LuckyRabbitFeet/rabbitfeet.net/master/res/npm%E5%AE%89%E8%A3%85Electron%E6%85%A2%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/Snipaste_2020-03-18_22-20-21.png)
+![下载逻辑](https://cdn.jsdelivr.net/gh/LuckyRabbitFeet/rabbitfeet.net@master/res/npm%E5%AE%89%E8%A3%85Electron%E6%85%A2%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/Snipaste_2020-03-18_22-20-21.png)
 
 解决方法通过对比下载路径不难看出，只要再指定版本号就可以解决问题。
 

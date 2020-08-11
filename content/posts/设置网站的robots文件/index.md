@@ -29,5 +29,5 @@ tags:
 [1]: https://baike.baidu.com/item/robot.txt/3936191?fr=aladdin
 [2]: https://baike.baidu.com/item/%E6%90%9C%E7%B4%A2%E5%BC%95%E6%93%8E%E4%BC%98%E5%8C%96/3132
 [3]: http://tool.chinaz.com/robots/
-[4]: https://raw.githubusercontent.com/LuckyRabbitFeet/rabbitfeet.net/master/res/%E8%AE%BE%E7%BD%AE%E7%BD%91%E7%AB%99%E7%9A%84robots%E6%96%87%E4%BB%B6/img.png
+[4]: https://cdn.jsdelivr.net/gh/LuckyRabbitFeet/rabbitfeet.net@master/res/%E8%AE%BE%E7%BD%AE%E7%BD%91%E7%AB%99%E7%9A%84robots%E6%96%87%E4%BB%B6/img.png
 [5]: https://www.9imc.cn/archives/14/
