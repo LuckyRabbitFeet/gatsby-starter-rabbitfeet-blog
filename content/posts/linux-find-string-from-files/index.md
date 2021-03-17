@@ -1,5 +1,5 @@
 ---
-title: Linux在文件中查找字符串
+title: Linux 在文件中查找字符串
 date: 2018-09-26 20:03:00
 cat: misc
 tags:

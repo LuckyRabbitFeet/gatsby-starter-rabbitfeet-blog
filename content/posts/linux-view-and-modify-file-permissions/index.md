@@ -1,5 +1,5 @@
 ---
-title: Linux文件权限查看与修改
+title: Linux 查看与修改文件权限
 date: 2018-10-22 18:23:00
 cat: misc
 tags:

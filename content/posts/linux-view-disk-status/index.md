@@ -1,5 +1,5 @@
 ---
-title: Linux磁盘空间查看命令剩余空间查看
+title: Linux 查看磁盘状态
 date: 2018-09-26 20:03:00
 cat: misc
 tags:
