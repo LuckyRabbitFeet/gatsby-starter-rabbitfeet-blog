@@ -1,6 +1,6 @@
 ---
 title: 在 Windows Terminal 里配置 Powershell
-date: 2019-03-01 21:24:00
+date: 2021-05-10 11:28:03
 cat: misc
 tags:
   - windows
