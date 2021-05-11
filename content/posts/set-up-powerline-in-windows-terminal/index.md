@@ -60,9 +60,8 @@ oh-my-posh 和 oh-my-zsh 一样，需要一套带各种图标的等宽字体才�
 
 巨硬新款终端，帅气又漂亮，安装也非常简单，打开 [Microsoft Store][5] 直接搜索 Windows Terminal 然后安装就行了，至于 Windows Terminal 本身的配置的话，截至本文发布时间，已经可以支持界面化设置，不用再直接修改配置文件了，所以对于设置就不过多赘述了。
 
-[1]: (https://docs.microsoft.com/en-us/windows/terminal/tutorials/powerline-setup)	"Tutorial: Set up Powerline in Windows Terminal"
-[2]: (https://docs.microsoft.com/en-us/powershell/module/psreadline/?view=powershell-7.1) "PSReadLine"
-[3]: (https://github.com/microsoft/cascadia-code/releases) "cascadia-code"
-[4]: (https://www.nerdfonts.com/) "nerdfonts"
-[5]: (https://www.microsoft.com/zh-cn/p/windows-terminal/9n0dx20hk701?activetab=pivot:overviewtab) "
-Windows Terminal"
+[1]: https://docs.microsoft.com/en-us/windows/terminal/tutorials/powerline-setup	"Tutorial: Set up Powerline in Windows Terminal"
+[2]: https://docs.microsoft.com/en-us/powershell/module/psreadline/?view=powershell-7.1 "PSReadLine"
+[3]: https://github.com/microsoft/cascadia-code/releases "cascadia-code"
+[4]: https://www.nerdfonts.com/ "nerdfonts"
+[5]: https://www.microsoft.com/zh-cn/p/windows-terminal/9n0dx20hk701?activetab=pivot:overviewtab "Windows Terminal"

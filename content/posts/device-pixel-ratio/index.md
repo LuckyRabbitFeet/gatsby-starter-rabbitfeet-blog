@@ -89,6 +89,6 @@ tags:
 - [Window.devicePixelRatio][3]
 
 
-[1]: (https://juejin.cn/post/6897937643372937224)
-[2]: (https://developer.mozilla.org/zh-CN/docs/Web/HTML/Element/meta/name)
-[3]: (https://developer.mozilla.org/zh-CN/docs/Web/API/Window/devicePixelRatio)
+[1]: https://juejin.cn/post/6897937643372937224
+[2]: https://developer.mozilla.org/zh-CN/docs/Web/HTML/Element/meta/name
+[3]: https://developer.mozilla.org/zh-CN/docs/Web/API/Window/devicePixelRatio
